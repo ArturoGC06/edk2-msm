@@ -16,11 +16,12 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT -DENABLE_LINUX_SIMPLE_MASS_STORAGE
 
 [PcdsFixedAtBuild.common]
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1600
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2560
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1536 
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2152
+
 
   # Simple Init
-  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|800
+  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|362
 
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Samsung"
   gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Galaxy Tab S5e"
