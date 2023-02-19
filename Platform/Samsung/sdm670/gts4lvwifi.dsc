@@ -18,7 +18,8 @@
 [PcdsFixedAtBuild.common]
   gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1536 
   gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2152
-
+  
+  ///gQcomTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9c400000
 
   # Simple Init
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|362
